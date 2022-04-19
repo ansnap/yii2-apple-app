@@ -88,3 +88,12 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.apple-container > div {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.apple-container > div:nth-child(even) {
+    background-color: #e9e9e9;
+}
